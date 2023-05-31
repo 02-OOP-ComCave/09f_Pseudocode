@@ -1,0 +1,68 @@
+
+    /* 1. IF - ELSE */
+
+    int a
+    int b
+
+    if a>b 
+        output "a > b"
+    else
+        output "a < b"
+    
+    wenn a>b 
+        ausgabe "a > b"
+    ansonsten
+        ausgabe "a < b"
+
+    *************************************
+
+    /* 2. SWITCH CASE */
+
+    String op;
+
+    switch (op) 
+        case "+": ausgabe "Addition"
+        case "-": ausgabe "Subtraktion"
+        case "*": ausgabe "Multiplikation"
+        case ":": ausgabe "Division"
+
+    switch (op) 
+        fall "+": ausgabe "Addition"
+        fall "-": ausgabe "Subtraktion"
+        fall "*": ausgabe "Multiplikation"
+        fall ":": ausgabe "Division"
+
+    *************************************
+
+    /* 2. FOR Schleife */
+
+    int arr= [1,2,3,4]
+
+    for (1 = 0 ... n) {
+        ausgabe arr[i]
+    }
+
+    für (alle Elemente von arr)
+        ausgabe element
+
+    *************************************
+
+    /* 4. do - while Schleife */
+    
+    int a = 0
+
+    do 
+        a += 1;
+    while a < 5
+
+    wiederhole
+        a = a + 1
+    solange wie a < 5
+
+    *************************************
+    
+    /* 5. Funktionen */
+
+    int summe a,b 
+        return a + b
+        
